@@ -170,6 +170,7 @@ body {
     .about {
         grid-template-columns: 1fr;
         gap: 2em;
+        padding: 2em 1em;
     }
 
     .about img {
@@ -186,6 +187,13 @@ body {
     .intro h1 {
         font-size: 2em;
     }
+
+    .links {
+        text-align: center;
+        margin: 3em 0;
+        padding: 0 1em;
+    }
+    
 
     .link-img {
         grid-template-columns: 1fr;
