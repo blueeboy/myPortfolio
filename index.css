@@ -152,6 +152,20 @@ body {
     transition: 0.5s;
 }
 
+.github {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.github img {
+    width: 50px;
+    margin: 0 auto;
+}
+
 @media (max-width: 768px) {
     .about {
         grid-template-columns: 1fr;
